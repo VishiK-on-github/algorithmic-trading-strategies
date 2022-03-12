@@ -11,6 +11,6 @@ After setting up the environment, activate the environment as follows
 After activating the python environment, download the dependencies required to
 run all the notebooks :
 
-#### pip download -r requirements.txt
+#### pip install -r requirements.txt
 
 You are good to go !

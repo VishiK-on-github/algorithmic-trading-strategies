@@ -8,11 +8,11 @@ Mean reversion backtester / optimize demo (done)
 
 ---
 
-SMA basics (left)
+SMA basics (done)
 
-SMA backtester (left)
+SMA backtester (done)
 
-SMA backtester / optimize demo (left)
+SMA backtester / optimize demo (done)
 
 ---
 
