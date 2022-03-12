@@ -4,7 +4,7 @@ Mean reversion basics (done)
 
 Mean reversion backtester (done)
 
-Mean reversion backtester / optimize demo (left)
+Mean reversion backtester / optimize demo (done)
 
 ---
 
