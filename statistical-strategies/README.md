@@ -16,8 +16,8 @@ SMA backtester / optimize demo (done)
 
 ---
 
-Momentum-Contrarian basics (left)
+Momentum-Contrarian basics (done)
 
-Momentum-Contrarian backtester (left)
+Momentum-Contrarian backtester (done)
 
-Momentum-Contrarian backtester / optimize demo (left)
+Momentum-Contrarian backtester / optimize demo (done)
