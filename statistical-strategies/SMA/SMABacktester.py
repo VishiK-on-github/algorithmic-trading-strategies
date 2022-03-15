@@ -15,13 +15,15 @@ class SMABacktester():
         self.results = None 
         self.get_data()
         self.prepare_data()
-    
+        
     def __repr__(self):
+  
         return f'SMABacktester(symbol = {self.symbol}, SMA_S = {self.SMA_S},  SMA_L = {self.SMA_L}, start = {self.start}, end = {self.end}, tc={self.tc})'
         
     def get_data(self):
         raw = pd.read_csv("../../resources/intraday.csv", parse_dates = ["time"], index_col = "time")
         raw = raw.Close.to_frame().dropna()
+        raw = raw.loc[self.start:self.end]
         raw["returns"] = np.log(raw / raw.shift(1))
         self.data = raw
         
@@ -29,7 +31,6 @@ class SMABacktester():
         data = self.data.copy()
         data["SMA_S"] = data["Close"].rolling(self.SMA_S).mean()
         data["SMA_L"] = data["Close"].rolling(self.SMA_L).mean()
-        data.dropna(inplace=True)
         self.data = data
         
     def set_parameters(self, SMA_S = None, SMA_L = None):

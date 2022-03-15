@@ -19,6 +19,7 @@ class MomentumContrarianBacktester():
     def get_data(self):
         raw = pd.read_csv("../../resources/intraday.csv", parse_dates = ["time"], index_col = "time")
         raw = raw.Close.to_frame().dropna()
+        raw = raw[self.start:self.end]
         raw["returns"] = np.log(raw / raw.shift(1))
         raw.dropna(inplace=True)
         self.data = raw
