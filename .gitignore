@@ -1,2 +1,5 @@
 # dependencies
 env
+
+# DLL files / optimized binaries
+__pycache__/
