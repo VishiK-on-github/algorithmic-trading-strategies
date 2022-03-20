@@ -5,3 +5,5 @@ matplotlib
 jupyter-dash
 nbformat
 yfinance
+fxcmpy
+pickle
