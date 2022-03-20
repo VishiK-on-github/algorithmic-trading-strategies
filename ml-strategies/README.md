@@ -1,6 +1,6 @@
 Trading strategies using machine learning README
 
-Regression basics (left)
+Regression basics (done)
 
 Regression backtester (left)
 
@@ -8,7 +8,7 @@ Regression backtester / optimize demo (left)
 
 ---
 
-Classification basics (left)
+Classification basics (done)
 
 Classification backtester (left)
 
